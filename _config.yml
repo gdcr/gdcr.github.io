@@ -18,7 +18,7 @@ email: whit0694@umn.edu
 description: > # this means to ignore newlines until "baseurl:"
   A UMNTC-hosted, Twin Cities-wide day of deliberate programming practice.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://gdcr.github.io" # the base hostname & protocol for your site
+url: "https://gdcr.github.io" # the base hostname & protocol for your site
 twitter_username: umnhackerhours
 github_username:  IanWhitney
 
