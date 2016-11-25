@@ -1,23 +1,60 @@
 ---
 layout: default
 ---
+<div class="jumbotron jumbotron">
+  <div class="container">
+    <h1 class="display-3">Gopher Day of Coderetreat</h1>
+    <p>Dedicate a Day to Your Programming Craft</p>
+    <button type="button" class="btn btn-success btn-lrg">RSVP Now!</button>
+  </div>
+</div>
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h2>The Important Details</h2>
+      <p>
+        Thursday, January 12<sup>th</sup> 2017<br />
+        8:30am - 5:00pm<br />
+        <a href="http://campusmaps.umn.edu/robert-h-bruininks-hall">Bruininks Hall</a>, Room 330<br />
+        <strong>Free</strong><br />
+        Breakfast and Lunch provided<br />
+        There will be a happy hour afterwards
+      </p>
+    </div>
+    <div class="col-md-6">
+      <h2>What is Gopher Day of Coderetreat?</h2>
+      <p>
+      Gopher Day of Coderetreat is a <strong>free</strong>, U of M sponsored <a href="http://coderetreat.org/">coderetreat</a> open to everyone. 
+      We spend the day working on small problems and "<a href='http://coderetreat.org/about'>focusing on the fundamentals of software development and design</a>." Programmers world wide have found that dedicating a day to practicing their skills has made their code cleaner and easier to change.
+      </p>
+      <h2>Can I Attend?</h2>
+      <p>
+        <strong>Yes!</strong> Gopher Day of Coderetreat is open to everyone. 
+        You do not need to be a U of M employee or student. 
+        All programming languages and experience levels welcome. 
+        You only need to be excited about spending a day improving your programming craft!
+      </p>
+    </div>
+    <div class="col-md-6">
+      <h2>What Will I Do?</h2>
+      <h4>Practice</h4>
+      <p>
+        You will spend the day working with others, discussing and solving small programming problems. 
+        The problems will change, encouraging you to explore other approaches.
+      </p>
+      <hr />
+      <h4>Learn</h4>
+      <p>
+        You will work with different programmers throughout the day. 
+        Learn about the languages they use, their problem solving techniques, and their handy tricks! 
+      </p>
+      <hr />
+      <h4>Teach</h4>
+      <p>
+        You will share your knowledge with programmers from across the Twin Cities. 
+        It doesn't matter how long you've been programming, you'll know something that they don't!
+      </p>
+    </div>
+  </div>
 </div>
